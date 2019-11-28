@@ -49,7 +49,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Welcomo to Paddys Cafe</h1>
+        <h1 class="mt-5">Adriana Coquital Bar</h1>
         <p class="lead">I am gonna put whatever I want here, right NOW! :)</p>
         <ul class="list-unstyled">
           <li>Nothing here! :)</li>
@@ -61,12 +61,32 @@
             <form enctype="application/json" action="/post/json" method="post">
                 <div class="form-group">
                     <select class="form-control" name="sec_n">
-                        <option value="0">Side Dishes</option>
-                        <option value="1">Breakfast</option>
-                        <option value="2">Lunch</option>
-                        <option value="3">Dinner</option>
+                        <option value="0">Coffees</option>
+                        <option value="1">Coktails</option>
+                        <option value="2">Snacks</option>
+                       
                     </select>
                 </div>
+                    <div class="col-lg-4 text-center order-2">
+            <form enctype="application/json" action="/post/json" method="post">
+                <div class="form-group">
+                    <select class="form-control" name="sec_n">
+                        <option value="0">coffees</option>
+                        <option value="1">coktails</option>
+                        <option value="2">snacks</option>
+                       
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="item" placeholder="Item">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="price" placeholder="Price">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
                 <div class="form-group">
                     <input class="form-control" type="text" name="item" placeholder="Item">
                 </div>
