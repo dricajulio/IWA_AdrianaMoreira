@@ -2,6 +2,7 @@ var http = require('http'),
     path = require('path'),
     express = require('express'),
     fs = require('fs'),
+    xml2js = require ('xml2js'),
     xmlParse = require('xslt-processor').xmlParse,
     xsltProcess = require('xslt-processor').xsltProcess;
 
